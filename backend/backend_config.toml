@@ -4,7 +4,7 @@
 backend_name = "backend-dev"
 
 # Host to bind the backend to.
-http_host = "127.0.0.1"
+http_host = "0.0.0.0"
 
 # Port for the backend.
 http_port = 8080
