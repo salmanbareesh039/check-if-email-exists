@@ -371,7 +371,7 @@ impl ThrottleConfig {
 /// environment.
 pub async fn load_config() -> Result<BackendConfig, anyhow::Error> {
 	let cfg = Config::builder()
-		.add_source(config::File::with_name("backend_config"))
+		.add_source(config::File::with_name("backend/backend_config.toml"))
 		.add_source(config::Environment::with_prefix("RCH").separator("__"))
 		.build()?;
 
