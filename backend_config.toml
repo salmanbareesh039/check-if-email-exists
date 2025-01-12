@@ -6,3 +6,6 @@ level = "info"
 
 [database]
 url = "postgresql://postgres:Salman%40123@db.oxspplozitasntttukmf.supabase.co:5432/postgres"
+
+[backend]
+name = "reacher_backend"
